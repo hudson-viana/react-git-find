@@ -9,7 +9,11 @@ header {
 }
 
 h1 {
-    font-family: 'Inter, Roboto, Arial';
+    font-family: 'Roboto';
     font-size: 24px;
     color: #FFFFFF;
+}
+
+h2, h3, span, p {
+    font-family: 'Roboto';
 }

@@ -1,0 +1,100 @@
+h1, h2, h3, h4, h5, p, strong {
+    font-family: 'Roboto';
+}
+
+.content {    
+    position: relative;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+.background {
+    height: 90vh;
+    position: absolute;
+    left: 0;
+}
+
+.info { 
+    width: 60%;
+    margin-right: 90px;
+    margin-top: 40px;
+    color: #ffffff;
+
+}
+
+.search-section {
+   display: flex;
+   justify-content: center;
+
+}
+
+input {
+    border-radius: 22px;
+    border: 1px solid #999999;
+    background: transparent;
+    font-size: 18px;
+    padding: 10px;
+    min-width: 250px;
+    margin-right: 12px;
+    width: 85%;
+    color: #ffffff;
+    
+}
+
+input[type="text"]::placeholder {
+    text-align: center;
+    opacity: 50%;
+}
+
+button {
+    border-radius: 22px;
+    border: 1px solid #999999;
+    background: #2D333B;
+    font-size: 18px;
+    padding: 10px;
+    color: #c2c2c2;
+    cursor: pointer;
+}
+
+.profile-container {
+    display: flex;
+    margin: 40px 0;
+
+}
+
+.profile-image img {
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    border: 2px solid #e5e5e5;
+    margin-right: 32px;
+
+}
+
+.profile-text h3 {
+    color: #999999;
+    font-size: 24px;
+    margin: 0;
+    
+}
+
+.profile-text span {
+    display: block;
+    color: #999999;
+    font-size: 12px;
+    margin: 0;
+}
+.profile-text p {
+    color: #999999;
+    font-size: 12px;
+    margin: 20px 0 0 0;
+}
+
+.repositories h4 {
+    font-size: 32px;
+    color: #FFFFFF;
+    margin: 12px 0;
+    text-align: center;
+}
