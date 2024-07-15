@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Header } from "../../components/Header";
 import ItemList from "../../components/ItemList";
 import "./styles.css";
+import background from "../../assets/background.png";
 
 function App() {
   const [user, setUser] = useState("");
@@ -37,11 +38,7 @@ function App() {
     <div className="App">
       <Header />
       <div className="content">
-        <img
-          src="src/assets/background.png"
-          className="background"
-          alt="background image"
-        />
+        <img src={background} className="background" alt="background image" />
         <div className="info">
           <div className="search-section">
             <input
@@ -72,7 +69,7 @@ function App() {
           {repos?.length ? (
             <div className="repositories">
               <h4>Repositories</h4>
-              {repos.map((index, repo) => (
+              {repos.map((repo, index) => (
                 <ItemList
                   key={index}
                   title={repo.name}
