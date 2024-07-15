@@ -17,8 +17,9 @@ strong {
 }
 
 .background {
+  z-index: -10;
   height: 90vh;
-  position: absolute;
+  position: fixed;
   left: 0;
 }
 
